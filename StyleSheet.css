@@ -13,7 +13,8 @@
     width:100%;
     max-width:1200px;
     margin:0 auto;
-    padding:20px;
+    padding:60px 20px;
+    backgound-color:#000000;
     }
     .navbar
     {
@@ -195,26 +196,22 @@
                  transition: backgound-color 0.3s ease;
                  }
                  
-                 .cont
+                 .conta
                  {
-                     font-family:'Segoe UI'sans-serif;
-                     background-color:#87ceeb;
-                     display:flex;
-                     align-item:center;
-                     justify-content:center;
-                     min-height:100vh;
-                     padding:1rem;
+                    max-width:1000px;
+                     margin:0 auto;
+                     padding:0 20px;
+                
                  }
                  
                  form
                  {
                      margin:50px auto;
+                     background-color:#ffffff
                      padding:30px;
                      border:2px solid #00c46a;
-                     max-width:600px;
-                     width:100%;
                      border-radius:10px;
-                     border-shadow:0 8px 16px rgba(0,0,0,0.1);
+                     box-shadow:0 8px 16px rgba(0,0,0,0.1);
                      }
                      form label
                      {
